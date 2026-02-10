@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop RAM Selector - 3 Column Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Choose Your RAM Upgrade</h2>
+        
+        <div class="ram-grid">
+            
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="4GB DDR5">
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">4GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="8GB DDR5" >
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">8GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="16GB DDR5" checked>
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">16GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="32GB DDR5">
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">32GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="64GB DDR5">
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">64GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+            <label class="ram-option">
+                <input type="radio" name="ramType" value="128GB LPDDR5">
+                <div class="ram-card">
+                    <div class="check-icon">✓</div>
+                    <div class="ram-capacity">128GB</div>
+                    <div class="ram-type">DDR5 3200MHz</div>
+                </div>
+            </label>
+
+        </div>
+
+        <button class="submit-btn" onclick="confirmSelection()">Confirm Selection</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
